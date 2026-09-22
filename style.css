@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  min-height: 100dvh;
+  background-color: wheat;
+  font-family: "Unica One", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: cyan;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 400px;
+  padding: 20px;
+  background-color: #252A34;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 400px;
+  padding: 20px;
+  background-color: #252A34;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 96px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+  background-color: #22252D;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  color: cyan;
+  font-size: 32px;
+}
+
+.columns {
+  display: flex;
+  gap: 5px;
+}
+
+.columns button {
+  width: calc((100% - 15px) / 4); 
+  padding: 20px;
+  background-color: #1E222B;
+  border: 2px solid #FFFFFF;
+  border-radius: 20px;
+  color: cyan;
+  font-size: 18px;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.columns:last-child {
+  justify-content: space-between;
+}
